@@ -1,0 +1,8 @@
+streamlit
+mediapipe==0.10.9
+opencv-python
+numpy
+pandas
+scikit-learn
+joblib
+Pillow
