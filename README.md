@@ -1,10 +1,10 @@
 # Hand Gesture Recognition
 
-A real-time hand gesture recognition app using MediaPipe and Machine Learning.
+A real-time hand gesture recognition app using MediaPipe and machine learning.
 
 ## Features
 - Detects hand landmarks
-- Classifies gestures (thumbs up, peace, etc.)
+- Classifies gestures such as thumbs up, peace, open palm, and fist
 - Real-time webcam prediction
 - Streamlit web app
 
@@ -16,9 +16,11 @@ A real-time hand gesture recognition app using MediaPipe and Machine Learning.
 - Streamlit
 
 ## Results
-96% test accuracy
+- 281 usable samples
+- 96.5% test accuracy
 
-## Run
+## Run Locally
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
